@@ -7,7 +7,7 @@ SOURCE_FILE = demo
 NASM_OPTIONS = -f elf64
 
 # LD options (linker)
-LD_OPTIONS = -s
+#LD_OPTIONS = -s
 
 # Assemble command
 ASSEMBLE = nasm $(NASM_OPTIONS)
